@@ -66,11 +66,15 @@
         <h3>What Attendees are Saying</h3>
       
           <!-- Write the markup for each quote - include a citation element -->
+  <blockquote>
           <q>I've attended Front End DevConf 5 times. I look forward to another intensive day of learning and sharing!</q>
-          <cite>- Cody McCoder</cite>
-
+          <footer><cite>- Cody McCoder</cite></footer>
+  </blockquote>
+  
+  <blockquote>
           <q>Front End DevConf is committed to being inclusive and welcoming for everyone!</q>
-           <cite>- Gram McProgrammer</cite>
+           <footer><cite>- Gram McProgrammer</cite></footer>
+  </blockquote>
 </aside>
 
       <!-- 7. Add an element that groups the 'Schedule' content -->
