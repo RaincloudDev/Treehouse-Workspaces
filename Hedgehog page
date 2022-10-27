@@ -9,7 +9,7 @@
           <h1>Hedgehog Headquarters</h1>
           A web page about hedgehogs, a spiny mammal of the subfamily Erinaceinae, in the eulipotyphlan family Erinaceidae. 
           <nav>
-            <a href="#">Home</a><br>
+            <a href="#">Home</a>
             <a href="#about">About Hedgehogs</a>
             <a href="#facts">Care and Handling</a>
             <a href="#pets">Hedgehog Diet</a>
