@@ -19,12 +19,14 @@ padding:20px;
 border: 2px solid red;
   
   /* Use margins to center .box on the page. */
-margin: 0 auto;
+margin: auto;
   
   /* Prevent the contents of .box from overflowing. */
-overflow:hidden;
+overflow-y:scroll;
   
   /* Force border-width and padding values into the total width and height of .box */
 box-sizing:border-box;
   
 }
+
+
