@@ -4,7 +4,7 @@
 
 /* Target viewport sizes less than 576px */
 
-@media screen and (max-width: 575px){
+@media (max-width: 575px){
   
     header {
       text-align: center;
@@ -47,7 +47,7 @@
 
 /* Target a viewport range wider than 575px and narrower than 992px */
 
-@media screen (min-width: 576px) and (max-width: 991px){
+@media (min-width: 576px) and (max-width: 991px){
     
     nav {
       float: left;
@@ -58,7 +58,7 @@
 
 /* Target viewport sizes 768px and wider */
 
-@media screen and (min-width:768px){
+@media (min-width:768px){
 
     .articles {
       float: left;
@@ -73,7 +73,7 @@
 
 /* Target viewport sizes 992px and wider */
 
-@media screen and (min-width: 992px){
+@media (min-width: 992px){
 
     nav {
       float: right;
