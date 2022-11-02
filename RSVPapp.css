@@ -193,7 +193,8 @@ button:last-child {
     margin-right: 1.25%;
   }
   .guest-list {
-    display: flex;    
+    display: flex;
+    clear: both;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 1.25em;
