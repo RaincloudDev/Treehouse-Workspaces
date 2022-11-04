@@ -1,0 +1,12 @@
+// 1. Declare variables and capture input.
+const animal = prompt('Name an Animal..');
+const plant = prompt('Name a Plant..');
+const season = prompt('Name a Season..');
+const friend = prompt('Name another animal..');
+const name = prompt('A silly name..');
+// 2. Combine the input with other words to create a story.
+const story = "The other day I saw this " + animal + " chewing on an entire " + plant + "! I was taken aback, because it was mid-" + season + " and couldn't take my eyes off the " + friend + " watching from behind a bush. I shouldn't have been concerned. It turned out the " + animal + " and " + friend + " were friends!! Their name was " + name + ". The " + animal + " was fine, though. We all went for drinks after the event. Good Times.";
+
+// 3. Display the story as a <p> inside the <main> element.
+
+document.querySelector('main').innerHTML= `<p>${story}</p>`;
